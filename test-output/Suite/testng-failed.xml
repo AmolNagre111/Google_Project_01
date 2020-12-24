@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="Google_Tests.TC_09_VerifyLoginToGmailTest"/>
+      <class name="Google_Tests.TC_10_VerifyTotalMailRecTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="Google_Tests.TC_09_VerifyLoginToGmailTest">
+        <methods>
+          <include name="isSkip"/>
+          <include name="intial"/>
+          <include name="QuitDriver"/>
+        </methods>
+      </class> <!-- Google_Tests.TC_09_VerifyLoginToGmailTest -->
+      <class name="Google_Tests.TC_10_VerifyTotalMailRecTest">
+        <methods>
+          <include name="VerifyTotalNoOfEmailReceived" invocation-numbers="0"/>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- Google_Tests.TC_10_VerifyTotalMailRecTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
