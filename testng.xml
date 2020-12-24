@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+     
+     <class name="Google_Tests.TC_01_Verify_GooglePageLaunchingTest"/>
+     <class name="Google_Tests.TC_02_Verify_GoogleAppsTest"/>
+      <class name="Google_Tests.TC_03_VerifyAllGoogleApps_LaunchingTest"/>
+	  <class name="Google_Tests.TC_04_SIgnInAllGoogleAppsTest"/>
+      <class name="Google_Tests.TC_05_VerifyAllLanguageLinksTest"/>
+      <class name="Google_Tests.TC_06_OpenCloseBrowsersTest"/> 
+      <class name="Google_Tests.TC_07_VerifySearchOperationProperlyTest"/>
+      <class name="Google_Tests.TC_08_VerifyAllGoogleProductsTest"/>
+      <class name="Google_Tests.TC_09_VerifyLoginToGmailTest"/>
+       <class name="Google_Tests.TC_10_VerifyTotalMailRecTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
